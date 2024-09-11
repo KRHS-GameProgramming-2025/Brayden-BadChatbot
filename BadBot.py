@@ -47,3 +47,4 @@ if (ufav2 in sports):
     print ("Sports aren't colors.")
 elif (ufav2 in colors):  
     print ("That's cool, I like all colors!")
+Print ("End.")
