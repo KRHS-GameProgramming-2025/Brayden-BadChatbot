@@ -25,12 +25,19 @@ colors=["red",
       "purple",
       "magenta",
       "turquoise"]
-weirdcolors=["ultraviolet",
+weirdwords=["ultraviolet",
       "megagenta",
       "insaniteal",
       "mysterycolor",
-      "gold",
-      "confetti",
+      "buygold",
+      "bill",
+      "Bill",
+      "cipher",
+      "Cipher",
+      "BillCipher",
+      "billcipher",
+      "Bill Cipher",
+      "bill cipher",
       "brown 2"]
 ufav=input("What's your favorite sport?")
 if (ufav in colors):  
@@ -46,6 +53,8 @@ if (ufav2 in sports):
     print ("Sports aren't colors.")
 elif (ufav2 in colors):  
     print ("That's cool, I like all colors!")
-elif (ufav2 in weirdcolors):  
+elif (ufav2 in weirdwords):  
+    print ("HA   HA    HA " *1000000)
+    print (" " *10000)
     print ("Remember! Reality is an illusion, the universe is a hologram, buy gold, bye!")
-print ("End.")
+    print ("End.")
