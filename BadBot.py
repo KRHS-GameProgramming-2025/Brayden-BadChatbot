@@ -27,11 +27,10 @@ colors=["red",
       "turquoise"]
 weirdcolors=["ultraviolet",
       "megagenta",
-      "yellow",
-      "green",
-      "blue",
-      "purple",
-      "magenta",
+      "insaniteal",
+      "mysterycolor",
+      "gold",
+      "confetti",
       "brown 2"]
 ufav=input("What's your favorite sport?")
 if (ufav in colors):  
@@ -47,4 +46,6 @@ if (ufav2 in sports):
     print ("Sports aren't colors.")
 elif (ufav2 in colors):  
     print ("That's cool, I like all colors!")
-Print ("End.")
+elif (ufav2 in weirdcolors):  
+    print ("Remember! Reality is an illusion, the universe is a hologram, buy gold, bye!")
+print ("End.")
